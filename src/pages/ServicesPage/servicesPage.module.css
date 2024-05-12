@@ -12,7 +12,7 @@
 }
 
 .servicesItem {
-    margin: 0 auto 200px auto ;
+    margin: 0 auto 200px auto;
     width: 60%;
     font-size: 32px;
     font-weight: 500;
@@ -39,13 +39,13 @@
 }
 
 .line {
-    width: calc(100%/3);
+    width: calc(100% / 3);
     height: 5px;
     background-color: white;
 }
 
 .lineActive {
-    width: calc(100%/3);
+    width: calc(100% / 3);
     height: 5px;
-    background: rgba(128, 0, 255, 0.6)
+    background: rgba(128, 0, 255, 0.6);
 }
