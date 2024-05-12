@@ -12,7 +12,7 @@ const AboutPage = () => {
                 <div>
                     <div></div>
                     <div className={styles.wrapper}>
-                        <img className={styles.img} src="img/aboutImage.jpg" alt="" />
+                        <img className={styles.img} src={"img/aboutImage.jpg"} alt="" />
                         <div className={styles.text}>
                             <p className={styles.titleText}>about me</p>
                             <p className={styles.textParagraph}>Здравствуйте, я Суворова Наталья.</p>

@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react"
+import React from "react"
 import Header from "../../componets/Header/Header"
 import styles from "./worksPage.module.css"
 import Footer from "../../componets/Footer/Footer"
