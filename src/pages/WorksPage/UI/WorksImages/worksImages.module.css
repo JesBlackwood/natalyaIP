@@ -1,9 +1,10 @@
 .images {
     margin: 0 auto 14px auto;
-    max-width: 90%;
+    max-width: 80%;
     display: flex;
     flex-wrap: wrap;
-    gap: 35px;
+    justify-content: space-between;
+    gap: 45px;
 }
 
 .images:last-child {

@@ -11,6 +11,7 @@
 .title {
     font-size: 32px;
     color: white;
+    text-decoration: none;
 }
 
 .linkWrapper {

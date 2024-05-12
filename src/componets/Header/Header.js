@@ -5,7 +5,11 @@ import { Link } from "react-router-dom"
 const Header = () => {
     return (
         <div className={styles.main}>
-            <h1 className={styles.title}>suvorova natalya</h1>
+            <h1>
+                <Link to={"/"} className={styles.title}>
+                    suvorova natalya
+                </Link>
+            </h1>
             <div className={styles.linkWrapper}>
                 <Link className={styles.link} to={"/services"}>
                     services
