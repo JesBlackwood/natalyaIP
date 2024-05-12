@@ -1,0 +1,14 @@
+.main {
+    height: 100%;
+    background-color: var(--darkColor);
+}
+
+.textWrapper {
+    margin: 5dvh auto;
+    width: 85%;
+}
+
+.text {
+    font-size: 45px;
+    color: white;
+}

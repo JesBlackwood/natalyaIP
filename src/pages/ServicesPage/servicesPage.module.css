@@ -1,0 +1,51 @@
+.main {
+    height: 100%;
+    background-color: var(--darkColor);
+}
+
+.title {
+    margin-bottom: 200px;
+    font-size: 200px;
+    text-align: center;
+    color: #8000ff;
+    font-family: var(--BebasNeue);
+}
+
+.servicesItem {
+    margin: 0 auto 200px auto ;
+    width: 60%;
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+}
+
+.servicesPrices {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.servicesPrice {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lines {
+    margin: 10px auto 100px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    width: calc(100%/3);
+    height: 5px;
+    background-color: white;
+}
+
+.lineActive {
+    width: calc(100%/3);
+    height: 5px;
+    background: rgba(128, 0, 255, 0.6)
+}

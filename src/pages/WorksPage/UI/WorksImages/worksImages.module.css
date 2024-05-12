@@ -1,0 +1,12 @@
+.images {
+    margin: 0 auto 14px auto;
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.images:last-child {
+    margin-bottom: 0;
+    padding-bottom: 200px;
+}

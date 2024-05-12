@@ -1,0 +1,48 @@
+.main {
+    height: 100dvh;
+    background-color: var(--darkColor);
+}
+
+.cicrle {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    right: 32%;
+    border-radius: 100%;
+    fill: #262626;
+    box-shadow:
+        0 4px 70px 0 #8000ff,
+        0 -4px 70px 0 #8000ff;
+    z-index: 1;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+}
+
+.title {
+    font-family: var(--BebasNeue);
+    font-size: 200px;
+    letter-spacing: 0.1em;
+    z-index: 100;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.textTitle {
+    font-size: 40px;
+    font-weight: 700;
+}

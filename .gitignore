@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/misc.xml
+/.idea/prettier.xml
+/.idea/codeStyles/Project.xml

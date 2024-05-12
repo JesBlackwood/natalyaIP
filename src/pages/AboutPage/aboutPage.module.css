@@ -1,0 +1,45 @@
+.main {
+    height: 100%;
+    background-color: var(--darkColor);
+}
+
+.cicrle {
+    position: absolute;
+    left: -67px;
+    width: 782px;
+    height: 824px;
+    border-radius: 100%;
+    border: 5px solid #8000ff;
+    overflow: hidden;
+}
+
+.wrapper {
+    margin: 100px auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.img {
+    z-index: 10;
+}
+
+.text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.titleText {
+    font-size: 200px;
+    font-family: var(--BebasNeue);
+}
+
+.textParagraph {
+    font-size: 32px;
+    font-weight: 500;
+}
